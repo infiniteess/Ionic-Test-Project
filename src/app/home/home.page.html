@@ -1,0 +1,31 @@
+
+
+
+<ion-content #count  (click)="onBark()" >
+<ion-content [fullscreen]="true">
+
+  <ion-button ></ion-button>
+</ion-content >
+<ion-content >
+<ion-card >
+  <ion-card-header>You're Awake</ion-card-header>
+  <ion-card-content>YOu took a nasty blow to the head there... Welcome to Skyrim.</ion-card-content>
+  <div ><ion-button class="btn btn-primary" (click)="presentActionSheet()"></ion-button></div>
+</ion-card>
+<div class="alert" ></div>
+<br/>
+<br/>
+<br/>
+<br/>
+<p style="height: 100px;" id="count">1</p>
+
+</ion-content>
+  
+</ion-content>
+<script>
+  window.addEventListener('scroll', () => {
+  
+      console.log('Scrolled');
+  });
+  
+  </script>
